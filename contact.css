@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Dancing+Script:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  font-family: "Caveat";
+}
+body, .contact-us-container{
+    background: url(image/bg3.JPG);
+    background-position: center;
+    background-attachment:fixed;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+.contact-us-container{
+    height: 600px;
+}
+.title {
+    font-size: 30px;
+    padding: 1px 1px;
+    color: #fff;
+    text-shadow: 1px 1px black;
+  }
+
+.contact-information{
+    border: 2px solid black;
+    padding: 50px;
+    border-radius: 40px;
+    text-align: center;
+    background-color: rgba(152, 175, 185, 0.6);
+}
+.contact-information p{
+    border: 2px solid;
+    padding: 10px;
+    border-radius: 24px;
+    background-color: whitesmoke;
+    font-size: 20px;
+}
+.icon{
+    width: 30px;
+}
+.icon-gap{
+    margin-left: 20px;
+    display: inline-flex;
+    gap: 20px;
+}
+.contact-text {
+    margin-top: 30px;
+    width: 400px;
+    border: 2px solid black;
+    padding: 100px;
+    border-radius: 24px;
+    background-color: rgba(152, 175, 185, 0.6);
+    color: white;
+}
+.contact-text p{
+    font-size: 34px;
+}
+@media (max-width: 480px) {
+
+    .contact-us-container {
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .contact-information,
+    .contact-text {
+        padding: 20px;
+        border-radius: 20px;
+        width: 50%;
+    }
+
+    .contact-information p {
+        font-size: 14px;
+    }
+
+    .contact-text p {
+        font-size: 18px;
+    }
+
+    .icon {
+        width: 20px;
+    }
+
+    .icon-gap {
+        gap: 10px;
+    }
+
+    .header-nav {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .navigation {
+        flex-wrap: wrap;
+        gap: 5px;
+        justify-content: center;
+    }
+
+    .link {
+        font-size: 12px;
+        padding: 5px;
+        width: auto;
+    }
+
+    .title {
+        font-size: 20px;
+    }
+
+    .credentials {
+        flex-direction: column;
+        gap: 10px;
+        padding: 10px;
+    }
+
+    .copyright,
+    .email,
+    .number {
+        font-size: 12px;
+    }
+}
